@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <h1 id="title">Cuanto sabes de Goku?</h1>
+
+    <p id="description">Aunque muchos pensarían que Goku sería el elegido los datos arrojaron el inesperado nombre de un
+        fundamental personaje del anime.</p>
+
+    <form action="" id="survey-form">
+        <p>
+            <label for="name" id="name-label">
+                Nombre
+                <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" required>
+            </label>
+        </p>
+        <p>
+            <label for="email" id="email-label">
+                Email
+                <input type="email" name="email" id="email" placeholder="ingresa tu email" required>
+            </label>
+        </p>
+        <p>
+            <label for="number" id="number-label">
+                Numero
+                <input type="number" name="number" id="number" min="0" max="999" placeholder="Ingresa tu numero">
+            </label>
+        </p>
+        <p>
+            <label for="dropdown">Elige una opcion:</label>
+
+            <select name="dropdown" id="dropdown">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </p>
+
+        <p>
+            ¿Cual es tu personaje favorito de Dragon Ball?
+            <label for="uno">
+                <input type="radio" name="grupo-radio" id="uno" value="1">
+                Goku
+            </label>
+            <label for="dos">
+                <input type="radio" name="grupo-radio" id="dos" value="2">
+                Gohan
+            </label>
+            <label for="tres">
+                <input type="radio" name="grupo-radio" id="tres" value="3">
+                Vegeta
+            </label>
+            <label for="cuatro">
+                <input type="radio" name="grupo-radio" id="cuatro" value="4">
+                Bulma
+            </label>
+        </p>
+
+        <p>
+            ¿Que paises has visistado?
+            <label for="mexico">
+                <input type="checkbox" name="check" id="mexico" value="1">
+                Mexico
+            </label>
+            <label for="italia">
+                <input type="checkbox" name="check" id="italia" value="2">
+                Italia
+            </label>
+            <label for="holanda">
+                <input type="checkbox" name="check" id="holanda" value="3">
+                Holanda
+            </label>
+            <label for="hungria">
+                <input type="checkbox" name="check" id="hungria" value="4">
+                Hungria
+            </label>
+        </p>
+
+        <p>
+            Leave me a short Comment
+            <l for="textarea" id="textarea-label">
+                <textarea type="textarea" id="textarea">
+            </textarea>
+        </p>
+
+        <p>
+            <button type="submit" id="submit">Enviar Datos</button>
+        </p>
+    </form>
+</body>
+
+</html>
